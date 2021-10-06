@@ -12,7 +12,7 @@ public class HelloController {
 
     @GetMapping(value="/")
     public String getHelloWorld() {
-        return "Hello World!";
+        return "Hello JCON World!";
     }
     
 }
